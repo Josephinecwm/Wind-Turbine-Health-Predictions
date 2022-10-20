@@ -3,7 +3,7 @@ In modern industrial applications, sensors are used to observe key machine chara
 These can help detect slight deviations and issues to avoid major system failures through
 targeted repairs while keeping maintenance costs under control. Such sensors are critical in the operation of wind turbines, and sensor readings need to be reliably converted into operating mode.
 
-Given the sensor readings overtime, we are interested in knowing whether the turbine is operating correctly or whether one of several issues is present. This project aims to predict, as accurately as possible, the operating mode of a wind turbine based on the time series data from two sensors of a wind turbine. Deep learning models of LSTM, GRU, Simple sequence-to-vector RNNs,2D-CNN are built (Python - Tensorflow), compared and assesed to find the best model with minimised monetary cost.
+Given the sensor readings overtime, we are interested in knowing whether the turbine is operating correctly or whether one of several issues is present. This project aims to predict, as accurately as possible, the operating mode of a wind turbine based on the time series data from two sensors of a wind turbine. Deep learning models of LSTM, GRU, convolutional 1-D RNNs, 2D-CNN and CNN using a pretrained MobileNet architecture are built (Python - Tensorflow), compared and assesed to find the best model with minimised monetary cost.
 
 ## data information
 The data are sensor readings and operating modes for 4,000 turbine runs. 
