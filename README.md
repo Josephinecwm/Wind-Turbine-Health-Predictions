@@ -15,3 +15,4 @@ y is the operating mode for each of the 4,000 turbine runs:
 - 2 if the pitch angle is faulty
 - 3 if both are faulty
 
+*Note: wind_turbine.ipynb contains the full script with detailed analysis of each model.
